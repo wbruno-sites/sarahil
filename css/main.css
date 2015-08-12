@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  min-width: 1040px;
 }
 h1, h2, h3, h4 {
   color: #ff6300;
@@ -14,8 +15,10 @@ a:hover { text-decoration: underline; }
 .center {text-align: center; }
 .fleft { float: left; }
 .fright { float: right; }
+.clear { clear: both; }
 .overflow { overflow: hidden; }
 
+img { max-width: 100% !important; height: auto !important; }
 .content {width: 1040px; margin: 0 auto; }
 
 .button {
@@ -32,6 +35,8 @@ a:hover { text-decoration: underline; }
 
 .headline {font-size: 1.4em; }
 .section { padding: 80px 0; }
+
+.section-gray {background-color: #f5f6f5; }
 
 #logo { margin-right: 20px; }
 #header {
@@ -55,3 +60,25 @@ a:hover { text-decoration: underline; }
 #menu .is-active a { color: #ff6300; }
 #menu .is-active { border-bottom: 4px solid #ff6300; }
 
+.icon-check {
+  background: url('../images/icon-check.png') no-repeat;
+  display: inline-block;
+  width: 22px; height: 22px;
+}
+.tag {
+  text-transform: none;
+  font-size: 1.4em;
+  margin: 0 0 12px;
+  text-align: left;
+}
+.tag .icon-check { margin-top: 5px; padding-right: 7px; }
+.tag span { display: block; }
+.tag-one-line {  width: 300px; }
+.tag-three-lines { width: 620px; }
+
+
+#footer {
+  border-top: 4px solid #ff6300;
+  background-color: #6f6f6f;
+  color: #fff;
+}
