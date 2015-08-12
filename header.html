@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sarahil Transporte</title>
+
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon-precomposed.png"/>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body class="home">
+<header id="header" class="content">
+  <a href="/"><img src="images/logo.png" class="fleft" id="logo" /></a>
+  <nav id="menu">
+    <ul class="overflow">
+      <li<?php if($menu == 'home') { echo ' class="is-active"'; } ?>><a href="/">Home</a></li>
+      <li<?php if($menu == 'empresa') { echo ' class="is-active"'; } ?>><a href="a-empresa.html">A Empresa</a></li>
+      <li<?php if($menu == 'servicos') { echo ' class="is-active"'; } ?>><a href="servicos.html">Serviços</a></li>
+      <li<?php if($menu == 'frota') { echo ' class="is-active"'; } ?>><a href="frota.html">Frota</a></li>
+      <li<?php if($menu == 'equipamentos') { echo ' class="is-active"'; } ?>><a href="equipamentos-transportados.html">Equipamentos Transportados</a></li>
+      <li<?php if($menu == 'contato') { echo ' class="is-active"'; } ?>><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav><!-- #menu -->
+</header><!-- #header -->
