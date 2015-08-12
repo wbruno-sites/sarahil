@@ -1,7 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   min-width: 1040px;
+}
+body,
+.pure-g [class*="pure-u"] {
+  font-family: 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4 {
   color: #ff6300;
@@ -31,6 +34,9 @@ img { max-width: 100% !important; height: auto !important; }
   font-size: 1.1em;
   display: inline-block;
 }
+.button:hover,
+.button:focus { opacity: 0.9; }
+
 .space-top { margin-top: 50px; }
 
 .headline {font-size: 1.4em; }
@@ -81,4 +87,41 @@ img { max-width: 100% !important; height: auto !important; }
   border-top: 4px solid #ff6300;
   background-color: #6f6f6f;
   color: #fff;
+  padding: 55px 0;
+  font-size: 0.8em;
 }
+#copy {
+  background-color: #5c5c5c;
+  text-transform: uppercase;
+  padding: 30px 0;
+  font-size: 0.8em;
+  color: #fff;
+}
+#copy p { margin-bottom: 0; }
+
+
+.footer-title {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer-phones p { margin: 0 0 6px; }
+.footer-phones .footer-title { margin-bottom: 0px; }
+
+
+.social-midia { margin: 0; padding: 0; list-style: none; }
+.social { float: left; margin-right: 10px; }
+.social a {
+  width: 41px; height: 41px;
+  display: inline-block;
+  background: url('../images/sprite-social.png') no-repeat;
+}
+.social a:hover { opacity: 0.8; }
+.social:last-child { margin-right: 0; }
+
+.social-facebook a { background-position: 0px top; }
+.social-twitter a { background-position: -46px top; }
+.social-youtube a { background-position: -94px top; }
+.social-skype a { background-position: -141px top; }
+.social-whatsapp a { background-position: -189px top; }
