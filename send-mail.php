@@ -19,8 +19,8 @@ if( $_SERVER['REQUEST_METHOD']=='POST' ) {
 
   $headers = "MIME-Version: 1.1".PHP_EOL;
   $headers .= "Content-type: text/html; charset=iso-8859-1".PHP_EOL;
-  $headers .= "From: wbrunom@gmail.com".PHP_EOL; // remetente
-  $headers .= "Return-Path: wbrunom@gmail.com".PHP_EOL; // return-path
+  $headers .= "From: no-reply@sarahil.profissional.ws".PHP_EOL; // remetente
+  $headers .= "Return-Path: no-reply@sarahil.profissional.ws".PHP_EOL; // return-path
 
 
   mail($to, $subject, $message, $headers);
