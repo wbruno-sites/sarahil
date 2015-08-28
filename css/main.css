@@ -55,6 +55,12 @@ img { max-width: 100% !important; height: auto !important; }
   height: 666px;
 }
 
+#banner-title {
+  padding-top: 70px;
+  font-size: 2.2em;
+  text-align: center;
+}
+
 #banner-internal {
   background: url('../images/banner-internal.png') center top no-repeat #ff7a00;
   height: 244px;
