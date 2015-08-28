@@ -6,13 +6,26 @@
   </div>
 </section><!-- #banner-internal -->
 
-<article id="content" class="content">
+<article id="content" class="content pure-g">
 
-  <p class="headline">Vamos conversar?</p>
-  <p>Avenida Copacabana, 112 - 18º Andar - Sala 1811 - Alphaville<br />
-  Empresarial 18 do Forte - SP<br />
-  CEP: 06472-001<br />
-  Tel: (11) 2970-2200</p>
+  <div class="pure-u-1-2">
+    <p class="headline">Vamos conversar?</p>
+    <p>Avenida Copacabana, 112 - Alphaville<br />
+    18º Andar - Sala 1811<br />
+    Empresarial 18 do Forte - SP<br />
+    CEP: 06472-001<br />
+    Tel: (11) 2970-2200</p>
+  </div>
+  <form class="pure-u-1-2" method="POST" action="/send-mail.php">
+    <fieldset>
+      <label><span>Nome:</span> <input type="text" name="name" required="required"/></label>
+      <label><span>Telefone:</span> <input type="text" name="phone" required="required"/></label>
+      <label><span>Email:</span> <input type="email" name="email" required="required"/></label>
+      <label><span>Mensagem:</span> <textarea cols="30" rows="5" name="message" required="required"></textarea></label>
+
+      <input type="submit" value="Enviar" class="button button-form" />
+    </fieldset>
+  </form>
 
 </article>
 
